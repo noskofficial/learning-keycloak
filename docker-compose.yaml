@@ -33,3 +33,17 @@ services:
     depends_on:
       - keycloak
       - mailhog
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: backend
+    restart: always
+    env_file:
+      - ./backend/.env
+    ports:
+      - 5000:5000
+    depends_on:
+      - keycloak
+      - mailhog
