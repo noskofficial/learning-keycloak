@@ -29,12 +29,14 @@ docker-compose up --build
   
   ![image](https://github.com/noskofficial/learning-keycloak/assets/55124197/e825e724-87fe-44f2-b119-2a21057f7129)
 </details>
+
 4. Create a user and set the password
 <details>
   <summary>Image showing setting user password</summary>
 
   ![telegram-cloud-photo-size-5-6332609719956520476-y](https://github.com/noskofficial/learning-keycloak/assets/55124197/7a71b61b-ab89-4bae-913e-39ce3701b87b)
 </details>
+
 5. Fill the .env file of frontend
 6. After following from step 1-4.
 7. Run the project
@@ -47,6 +49,7 @@ docker-compose up --build
   
   ![telegram-cloud-photo-size-5-6332609719956520476-y](https://github.com/noskofficial/learning-keycloak/assets/55124197/48ae551b-d802-456e-a671-a1fd03c237ef)
 </details>
+
 2. Add the public key in .env file of backend
 3. Run the project
 4. Now you are able to see the socials of the user if email matches in the data:
